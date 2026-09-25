@@ -86,3 +86,9 @@ figure.wide-photo figcaption { font-family: 'Jost', sans-serif; font-size: 0.72r
   figure.portrait { float: none; width: 100%; margin: 0 0 20px; }
   h1.page-title { font-size: 1.9rem; }
 }
+
+.info-box { background: var(--bg-alt); border-radius: 4px; padding: 20px 22px; margin: 1.8em 0; }
+.info-box h3 { margin-top: 0; }
+.plain-list { list-style: none; padding: 0; margin: 0 0 1.4em; }
+.plain-list li { padding: 6px 0 6px 20px; position: relative; }
+.plain-list li::before { content: "•"; color: var(--accent); position: absolute; left: 0; }
